@@ -1,17 +1,22 @@
 {
-    "name": "lucatume/reading-time-blocks",
-    "description": "Gutenberg blocks to display a post reading time.",
-    "type": "wordpress-plugin",
-    "license": "GPL-2.0-or-later",
-    "authors": [
-        {
-            "name": "Luca Tumedei",
-            "email": "luca@theaveragedev.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {},
-    "require-dev": {
-        "lucatume/wp-browser": "^2.2"
-    }
+	"name": "lucatume/reading-time-blocks",
+	"description": "Gutenberg blocks to display a post reading time.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Luca Tumedei",
+			"email": "luca@theaveragedev.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {},
+	"require-dev": {
+		"lucatume/wp-browser": "^2.2"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Test\\": "tests/_support/"
+		}
+	}
 }
